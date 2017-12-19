@@ -13,4 +13,3 @@ function removeFromPlaylist(obj,key){
   return obj
 }
 removeFromPlaylist(playlist,Raja)
-console.log(obj)
