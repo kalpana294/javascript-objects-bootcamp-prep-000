@@ -3,6 +3,7 @@ var playlist = { Rahman : "En melvizhundha",
                  Anirudh : "yennai maatrum"
 }
 
-function updatePlaylist(playlist,shaan,muthuchippi){
-  
+function updatePlaylist(obj,key,value){
+  obj[key] = value
+  return obj
 }
